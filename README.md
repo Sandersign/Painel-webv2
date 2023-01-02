@@ -55,7 +55,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/ruck18/Painel-webv2/raw
 10- Atualização das Telas de Logins (Revenda & Admin)
 (Efeitos nas telas de login, e otimização das imagens).
 
-11- Botão Telegram no canto inferior esquerdo
+11- Botão Whatsapp no canto inferior direito
 (Atualizado a opção de troca no PWEB)
 
 12- Conta Admin não cria mais Conta SSH nem Conta Teste
