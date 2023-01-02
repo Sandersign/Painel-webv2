@@ -1,4 +1,4 @@
-#  𓊈𒆜 PAINEL WEB GRATUITO - BY SMAIGOLVIP 𒆜𓊉
+#  𓊈𒆜 PAINEL WEB GRATUITO - BY SMIGOLVIP 𒆜𓊉
 
 ⚠ <b>SISTEMA SUPORTADO:</b></br>
 👉 <b>(UBUNTU 18 e 20)</b></br>
