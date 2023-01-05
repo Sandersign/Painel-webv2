@@ -66,9 +66,13 @@ apt install wget -y; bash <(wget -qO- https://github.com/ruck18/Painel-webv2/raw
 
 ![02](https://i.postimg.cc/tRcwv773/Screenshot-3.png)
 
-![03](https://i.postimg.cc/26n60kQh/Screenshot-3.png)
+![03](https://i.postimg.cc/tRcwv773/Screenshot-3.png)
 
-![04](https://i.postimg.cc/nrHHTvcf/Screenshot-4.png)
+![04](https://i.postimg.cc/L5Pc3MkK/Screenshot-6.png)
+
+![05](https://i.postimg.cc/GmKZQKD2/Screenshot-4.png)
+
+![06](https://i.postimg.cc/rs5HtNcq/Screenshot-5.png)
 
 
 
