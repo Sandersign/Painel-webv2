@@ -20,7 +20,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/ruck18/Painel-webv2/raw
 ```
 
 
-# 𓊈𒆜 ATUALIZAÇÕES: (02/01/2023) 𒆜𓊉
+# 𓊈𒆜 ATUALIZAÇÕES: (05/01/2023) 𒆜𓊉
 ```
 1- Comando pweb
 (Funciona via terminal SSH)
@@ -34,39 +34,37 @@ apt install wget -y; bash <(wget -qO- https://github.com/ruck18/Painel-webv2/raw
 (Troca de cor da Top-Bar e icones nos Textos)
 
 4- Background Área Revenda e Área Admin
-(Para alterar as imagens, bastar ir em persobalizar no menu lateral do admin e fazer o upload das imagens)
+(Para alterar as imagens, bastar ir em personalizar no menu lateral do admin e fazer o upload das imagens e videos)
+(Fundo1 e Fundo2 = arquivo maximo de 2 megas, formato .mp4)
 
-5- Texto Flutuante na Tela Login/Revenda
-(📣 NOVIDADES AQUI !!!) Para editar, basta ir em /var/www/html/index.php (linha 86)
-
-6- Página de Termos de Uso editada
+5- Página de Termos de Uso editada
 (foi adicionado uma imagem no topo)
 (cor do background trocada)
 
-7- Todos os nomes GESTOR-SSH foi trocado por EMPRESA
+6- Todos os nomes GESTOR-SSH foi trocado por EMPRESA
 (quando alterar o NOME DA LOGO no painel pweb, Todos os texto EMPRESA será trocado também.)
 
-8- Adicionado função de copiar dados para CLIENTES e REVENDEDORES
+7- Adicionado função de copiar dados para CLIENTES e REVENDEDORES
 (para alterar, vai na opção meus dados na conta do admin.)
 
-9- Espaçamento nos Texto Revenda / Texto Cliente
+8- Espaçamento nos Texto Revenda / Texto Cliente
 (para alterar, vai na opção meus dados na conta do admin.)
 
-10- Atualização das Telas de Logins (Revenda & Admin)
+9- Atualização das Telas de Logins (Revenda & Admin)
 (Efeitos nas telas de login, e otimização das imagens).
 
-11- Botão Whatsapp no canto inferior direito
+10- Botão Whatsapp no canto inferior direito
 (Atualizado a opção de troca no PWEB)
 
-12- Conta Admin não cria mais Conta SSH nem Conta Teste
+11- Conta Admin não cria mais Conta SSH nem Conta Teste
 (Foi removido para um bom funcionamento do painel)
 ```
 
 # 𓊈𒆜 IMAGENS: 𒆜𓊉
 
-![01](https://i.postimg.cc/D0sqd3ZM/Screenshot-1.png)
+![01](https://i.postimg.cc/XqNj2qJS/Screenshot-1.png)
 
-![02](https://i.postimg.cc/hG6zCZHW/Screenshot-2.png)
+![02](https://i.postimg.cc/tRcwv773/Screenshot-3.png)
 
 ![03](https://i.postimg.cc/26n60kQh/Screenshot-3.png)
 
@@ -80,6 +78,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/ruck18/Painel-webv2/raw
 @swittecnologia
 @Davidsdy
 @sonycssh
+@genio_hacker
 ```
 
 
