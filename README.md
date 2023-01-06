@@ -35,7 +35,7 @@ apt install wget -y; bash <(wget -qO- https://github.com/ruck18/Painel-webv2/raw
 
 4- Background Área Revenda e Área Admin
 (Para alterar as imagens, bastar ir em personalizar no menu lateral do admin e fazer o upload das imagens e videos)
-(Fundo1 e Fundo2 = arquivo maximo de 2 megas, formato .mp4)
+(Fundo1 e Fundo2 = arquivo maximo de 10 megas, formato .mp4)
 
 5- Página de Termos de Uso editada
 (foi adicionado uma imagem no topo)
