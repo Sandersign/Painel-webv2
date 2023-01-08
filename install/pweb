@@ -109,6 +109,7 @@ fun_atpweb () {
 [[ ! -d /bin/ppweb ]] && mkdir /bin/ppweb
 cd /bin/ppweb || exit
 rm *.sh verpweb > /dev/null 2>&1
+<<<<<<< HEAD
 wget https://github.com/ruck18/Painel-webv2/raw/main/install/verifatt.sh > /dev/null 2>&1
 wget https://github.com/ruck18/Painel-webv2/raw/main/install/verpweb > /dev/null 2>&1
 wget https://github.com/ruck18/Painel-webv2/raw/main/install/whatsapp.sh > /dev/null 2>&1
@@ -116,6 +117,14 @@ chmod 777 *.sh > /dev/null 2>&1
 cd /bin || exit
 rm pweb > /dev/null 2>&1
 wget https://github.com/ruck18/Painel-webv2/raw/main/install/pweb > /dev/null 2>&1
+=======
+wget https://raw.githubusercontent.com/ruck18/Painel-web2/main/verifatt.sh > /dev/null 2>&1
+wget https://raw.githubusercontent.com/ruck18/Painel-web2/main/verpweb > /dev/null 2>&1
+chmod 777 *.sh > /dev/null 2>&1
+cd /bin || exit
+rm pweb > /dev/null 2>&1
+wget https://raw.githubusercontent.com/ruck18/Painel-web2/main/pweb > /dev/null 2>&1
+>>>>>>> 8f1c967d75e02a2c3cad8c2e1241023a2717cd53
 chmod 777 pweb > /dev/null 2>&1
 cd || exit 
 cat /dev/null > ~/.bash_history && history -c
@@ -181,7 +190,11 @@ fun_tst () {
     if [ -e "/usr/bin/testevelocidade" ]; then
     testevelocidade --share > speed
     else
+<<<<<<< HEAD
     wget https://github.com/ruck18/Painel-webv2/raw/main/install/speedtest-cli -O testevelocidade
+=======
+    wget https://raw.githubusercontent.com/ruck18/Painel-web2/main/speedtest-cli -O testevelocidade
+>>>>>>> 8f1c967d75e02a2c3cad8c2e1241023a2717cd53
     chmod +x testevelocidade
     mv testevelocidade /usr/bin/testevelocidade
     testevelocidade --share > speed
@@ -223,7 +236,11 @@ painel_att () {
 clear
 cd /bin/ppweb || exit
 rm verweb > /dev/null 2>&1
+<<<<<<< HEAD
 wget https://github.com/ruck18/Painel-webv2/raw/main/install/verweb > /dev/null 2>&1
+=======
+wget https://raw.githubusercontent.com/ruck18/Painel-web2/main/verweb > /dev/null 2>&1
+>>>>>>> 8f1c967d75e02a2c3cad8c2e1241023a2717cd53
 cd || exit
 echo ""
 echo -e "           \033[1;33m● \033[1;32mATUALIZANDO LINUX, PODE DEMORAR \033[1;33m●\033[0m"
@@ -442,8 +459,13 @@ fun_att_api () {
   screen -r -S "bot_painel" -X quit > /dev/null 2>&1
   screen -wipe 1>/dev/null 2>/dev/null
 	sleep 2
+<<<<<<< HEAD
     wget -qO- https://github.com/ruck18/Painel-webv2/raw/main/install/apibot -O /bin/ppweb/apibot > /dev/null 2>&1
     wget -qO- https://github.com/ruck18/Painel-webv2/raw/main/install/bot -O /bin/ppweb/bot > /dev/null 2>&1
+=======
+    wget -qO- https://raw.githubusercontent.com/ruck18/Painel-web2/main/apibot -O /bin/ppweb/apibot > /dev/null 2>&1
+    wget -qO- https://raw.githubusercontent.com/ruck18/Painel-web2/main/bot -O /bin/ppweb/bot > /dev/null 2>&1
+>>>>>>> 8f1c967d75e02a2c3cad8c2e1241023a2717cd53
 	chmod 777 -R /bin/ppweb > /dev/null 2>&1
   cd $HOME || exit
   echo ""
@@ -496,7 +518,11 @@ pararBot(){
 executarBot(){
   clear
 banner
+<<<<<<< HEAD
   chave=$(curl -sSL "https://github.com/ruck18/Painel-webv2/raw/main/install/chave") &>/dev/null
+=======
+  chave=$(curl -sSL "https://raw.githubusercontent.com/ruck18/Painel-web2/main/chave") &>/dev/null
+>>>>>>> 8f1c967d75e02a2c3cad8c2e1241023a2717cd53
   key=$(cat /bin/ppweb/botpag/chave_inst) &>/dev/null
     
          if [[ "$key" = "$chave" ]]
@@ -527,7 +553,11 @@ banner
 verificar_chave(){
 clear
 banner
+<<<<<<< HEAD
 chave=$(curl -sSL "https://github.com/ruck18/Painel-webv2/raw/main/install/chave") &>/dev/null
+=======
+chave=$(curl -sSL "https://raw.githubusercontent.com/ruck18/Painel-web2/main/chave") &>/dev/null
+>>>>>>> 8f1c967d75e02a2c3cad8c2e1241023a2717cd53
   
   if [[ ! -f /bin/ppweb/botpag/chave_inst ]]
   then
@@ -570,7 +600,11 @@ prepararAmbiente(){
 
 rm /bin/ppweb/botpag/* &>/dev/null
 	
+<<<<<<< HEAD
 wget https://github.com/ruck18/Painel-webv2/raw/main/install/botpag.zip &>/dev/null
+=======
+wget https://raw.githubusercontent.com/ruck18/Painel-web2/main/botpag.zip &>/dev/null
+>>>>>>> 8f1c967d75e02a2c3cad8c2e1241023a2717cd53
 
 unzip botpag.zip &>/dev/null
 
@@ -724,8 +758,13 @@ fun_botOnOff() {
         echo -e "\033[1;32mATIVANDO BOT PWEB \033[0m\n"
         fun_bot1() {
             [[ ! -e "/bin/ppweb/bot" ]] && {
+<<<<<<< HEAD
 				wget -qO- https://github.com/ruck18/Painel-webv2/raw/main/install/apibot -O /bin/ppweb/apibot > /dev/null 2>&1
                 wget -qO- https://github.com/ruck18/Painel-webv2/raw/main/install/bot -O /bin/ppweb/bot > /dev/null 2>&1
+=======
+				wget -qO- https://raw.githubusercontent.com/ruck18/Painel-web2/main/apibot -O /bin/ppweb/apibot > /dev/null 2>&1
+                wget -qO- https://raw.githubusercontent.com/ruck18/Painel-web2/main/bot -O /bin/ppweb/bot > /dev/null 2>&1
+>>>>>>> 8f1c967d75e02a2c3cad8c2e1241023a2717cd53
 				chmod 777 -R /bin/ppweb > /dev/null 2>&1
 			}
           cd /bin/ppweb
